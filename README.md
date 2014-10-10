@@ -4,3 +4,7 @@ Glad you asked, Project X is a javascript program in development full of games a
 
 Progress
 ==========
+- [x] Gitignore, Readme etc.
+- [ ] Games
+- [ ] Fun Tools
+- [ ] Helpful Tools

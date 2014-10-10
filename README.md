@@ -1,8 +1,5 @@
 projectX
 ========
-<addr>operator
-![Image of Game](http://www.picturesnew.com/media/images/x-picture.png)
-
 Video Guides Support GitHub.com  GitHub Guides logo
 Mastering Markdown
  3 minute read
@@ -32,8 +29,42 @@ Files with the .md or .markdown extension
 
 Examples
 Text Lists Images Headers & Quotes Code Extras
-It's very easy to make some words **bold** and other words *italic* with Markdown. You can even [link to Google!](http://google.com)
-It's very easy to make some words bold and other words italic with Markdown. You can even link to Google!
+There are many different ways to style code with GitHub's markdown. If you have inline code blocks, wrap them in backticks: `var example = true`.  If you've got a longer block of code, you can indent with four spaces:
+
+    if (isAwesome){
+      return true
+    }
+
+GitHub also supports something called code fencing, which allows for multiple lines without indentation:
+
+```
+if (isAwesome){
+  return true
+}
+```
+
+And if you'd like to use syntax highlighting, include the language:
+
+```javascript
+if (isAwesome){
+  return true
+}
+```
+There are many different ways to style code with GitHub’s markdown. If you have inline code blocks, wrap them in backticks: var example = true. If you’ve got a longer block of code, you can indent with four spaces:
+
+if (isAwesome){
+  return true
+}
+GitHub also supports something called code fencing, which allows for multiple lines without indentation:
+
+if (isAwesome){
+  return true
+}
+And if you’d like to use syntax highlighting, include the language:
+
+if (isAwesome){
+  return true
+}
 
 Syntax guide
 Here’s an overview of Markdown syntax that you can use anywhere on GitHub.com or in your own text files.

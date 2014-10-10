@@ -1,7 +1,7 @@
 /////////////////////////
 //1st Game by Heark || //
 /////////////////////////
-var rps = funtion(points, wins, losses, ties){
+var rps = function(points, wins, losses, ties){
   points = this.points;
   wins = this.wins;
   losses = this.losses

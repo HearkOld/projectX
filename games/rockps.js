@@ -50,4 +50,4 @@ if (userChoice == "Rock", "rock" && computerChoice == "Rock"){
   score.losses = score.losses + 1
   console.log("Rock smashes scissors, You lose!")
 } 
-console.log("Your Score is " +score)
+console.log("Your Score is " +score.points+ ":" +score.wins)

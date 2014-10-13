@@ -2,16 +2,12 @@
 //1st Game by Heark || //
 /////////////////////////
 var rps = function(points, wins, losses, ties){
-  points = this.points;
-  wins = this.wins;
-  losses = this.losses;
-  ties = this.ties;
+  this.points = points;
+  this.wins = wins;
+  this.losses = losses;
+  this.ties = ties;
 };
 var score = new rps(0, 0, 0, 0);
-score.wins = 0;
-score.points = 0;
-score.losses = 0;
-score.ties = 0;
 // Creating the computer
 var computerItems = ["Rock", "Paper", "Scissors"];
 var computerChoice = computerItems[Math.floor(Math.random()*computerItems.length)];

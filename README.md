@@ -9,3 +9,6 @@ Progress
 - [ ] Fun Tools
 - [ ] Helpful Tools
 
+Completed Games
+===============
+Dice Game - http://www.playmycode.com/play/game/heark/dice-game (Play it here!)

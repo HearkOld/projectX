@@ -27,3 +27,13 @@
 *.out
 *.app
 *.ins
+
+# Heark Custom Files
+*.pop
+*.hrk
+*.pl
+*.xlp
+*.dea
+$custom
+%custom
+&custom

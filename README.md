@@ -1,5 +1,7 @@
 What is Project X?
 ==================
+Project X Website ; http:/PROJECTXAS.TK
+==================
 Glad you asked, Project X is a javascript program in development full of games and other tools.
 
 Progress
@@ -11,4 +13,6 @@ Progress
 
 Completed Games
 ===============
-Dice Game - http://www.playmycode.com/play/game/heark/dice-game (Play it here!)
+Dice Game - http:/PROJECTXAS.TK (Play it here!)
+
+Flappy Bird - http:/PROJECTXAS.TK (Play it here!)

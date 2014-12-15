@@ -14,6 +14,7 @@
 `|....|' `|..||. .||    ||. .||. .||  ||. `|..||    `|....' `|..|' .. 
                                               ||                      
 */
+function Game() {
 var die = Math.floor(Math.random() * 6) + 1;
 var die2 = Math.floor(Math.random() * 6) + 1;
 var oppdie = Math.floor(Math.random() * 6) + 1;
@@ -47,4 +48,5 @@ document.body.appendChild(x);
     x.textContent = "Tie game!";         
 document.body.appendChild(x); 
  }
+}
 }

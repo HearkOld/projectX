@@ -31,13 +31,20 @@ var oppscore;
     } else {
         oppscore = this.oppdie;
     }
- console.log("You rolled a " +die+ " for a score of " +score+ "");
- console.log("Your opponent rolled a " +oppdie+ " for a score of " +oppscore+ "");
+ var x = document.createElement("div");
+x.textContent = "You rolled a " +die+ " for a score of " +score+ "";         
+document.body.appendChild(x); 
+x.textContent = "Your opponent rolled a " +oppdie+ " for a score of " +oppscore+ "";         
+document.body.appendChild(x); 
+ console.log();
  if (score > oppscore){
-  console.log("You win!");
+  x.textContent = "You win!";         
+document.body.appendChild(x); 
  } else if (score < oppscore){
-  console.log("You Lose!");
+    x.textContent = "You lose!";         
+document.body.appendChild(x); 
  } else if (score = oppscore){
-  console.log("Tie Game!");
+    x.textContent = "Tie game!";         
+document.body.appendChild(x); 
  }
 }
